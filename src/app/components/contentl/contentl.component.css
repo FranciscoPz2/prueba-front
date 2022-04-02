@@ -1,0 +1,57 @@
+
+p .colorStyle{
+    color: #0cc0b7;
+    width: 0.81rem;
+
+}
+.bi-telephone-fill{
+    transform: rotateY(180deg);
+    
+}
+.contentL{
+    font-size: small;
+    margin: 38% 11%;
+
+}
+p{
+    color:#b9b8b8d8;
+}
+.aquaStyle{
+    background-color: #0cc0b7;
+}
+.socialSvgT{
+    width : 53%;
+    margin: 0 0 16% 9%;
+}
+.socialSvgI{
+    width : 60%;
+    margin: 0 0 2% 13%;
+}
+.socialSvgf{
+    width : 78%;
+    margin: 0 0 11% 18%;
+}
+.mat-fab {
+    padding: 0%;
+    width: 30px;
+    height: 30px;
+}
+span .mat-fab .mat-button-wrapper {
+    padding: 0px 0 !important;
+}
+.buttonmarg{
+    padding: 0%;  
+    margin: 0% 10%;
+} 
+#contenido {
+    color                : white;
+    display              : grid;
+    grid-template-columns: auto auto auto;
+    grid-gap             : 10px;
+    margin               : 5% 0% ;
+    justify-content      : start;
+  }
+  .phoneNumber{
+    font-family: system-ui;
+    display: inline-flex;
+  }

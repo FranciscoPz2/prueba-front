@@ -1,0 +1,15 @@
+h3{
+    text-align: left;
+    color: #0cc0b7;
+}
+.formData{
+    margin: 2%;
+}
+.formField{
+    text-align: left;
+}
+button{
+    background-color: #0cc0b7;
+    color: white;
+
+}
