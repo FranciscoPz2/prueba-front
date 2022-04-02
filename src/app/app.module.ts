@@ -6,8 +6,8 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialCompModule } from '../material.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { ContentlComponent } from './contentl/contentl.component';
-import { ContentrComponent } from './contentr/contentr.component';
+import { ContentlComponent } from './components/contentl/contentl.component';
+import { ContentrComponent } from './components/contentr/contentr.component';
 
 @NgModule({
   declarations: [
