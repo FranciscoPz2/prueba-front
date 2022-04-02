@@ -1,6 +1,6 @@
 
 p .colorStyle{
-    color: #0cc0b7;
+    color: #0cbb92;
     width: 0.81rem;
 
 }
@@ -17,7 +17,7 @@ p{
     color:#b9b8b8d8;
 }
 .aquaStyle{
-    background-color: #0cc0b7;
+    background-color: #0cbb92;
 }
 .socialSvgT{
     width : 53%;
@@ -55,3 +55,4 @@ span .mat-fab .mat-button-wrapper {
     font-family: system-ui;
     display: inline-flex;
   }
+ 
