@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+   box-sizing: border-box;
+   padding   : 0;
+   margin    : 0;
+}
+
+html, body { 
+    height: 100%; 
+}
+body { 
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    margin     : 0;
+    width      : 100vw;
+	height     : 100vh;
+    background-color: black;
+
+}
+.mat-form-field-label {
+    color: rgba(24, 23, 23, 0.7);
+}
+.mat-form-field {
+    border-top: .84375em solid #0000;
+}

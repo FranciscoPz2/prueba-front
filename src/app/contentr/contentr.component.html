@@ -1,0 +1,95 @@
+<div>
+    
+    <div>
+        <div>
+            <mat-form-field appearance="outline">
+                <mat-label>Sexo*</mat-label>
+                <mat-select>
+                  <mat-option value="one">Femenino</mat-option>
+                  <mat-option value="two">Masculino</mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field appearance="outline">
+                <mat-label>Fecha de nacimiento*</mat-label>
+                <input matInput [matDatepicker]="picker">
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker startView="year" ></mat-datepicker>
+              </mat-form-field>
+        </div>
+    </div>
+    <div>
+        <div>
+            <mat-form-field appearance="outline">
+                <mat-label>Nombre</mat-label>
+                <input matInput>
+            </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field appearance="outline">
+                <mat-label>Apellido</mat-label>
+                <input matInput>
+            </mat-form-field>
+        </div>
+    </div>
+    <div>
+        <mat-form-field appearance="outline">
+            <mat-label>Email*</mat-label>
+            <input matInput>
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field appearance="outline">
+            <mat-label>Dirección</mat-label>
+            <input matInput>
+        </mat-form-field>
+    </div>
+    <div>
+        <div>
+            <mat-form-field appearance="outline">
+                <mat-label>Casa/Apartamento</mat-label>
+                <input matInput>
+            </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field appearance="outline">
+                <mat-label>Pais*</mat-label>
+                <mat-select>
+                  <mat-option value="one">Colombia</mat-option>
+                  <mat-option value="two">Argentina</mat-option>
+                  <mat-option value="three">México</mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+    </div>
+    <div>
+        <div>
+            <mat-form-field appearance="outline">
+                <mat-label>Departamento*</mat-label>
+                <mat-select>
+                  <mat-option value="one">Bogotá D.C</mat-option>
+                  <mat-option value="two">Antioquia</mat-option>
+                  <mat-option value="three">Boyacá</mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field appearance="outline">
+                <mat-label>Ciudad*</mat-label>
+                <mat-select>
+                  <mat-option value="one">Bogotá</mat-option>
+                  <mat-option value="two">Medellin</mat-option>
+                  <mat-option value="three">Tunja</mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+    </div>
+    <div>
+        <mat-form-field appearance="outline">
+          <mat-label>Comentarios</mat-label>
+          <textarea matInput></textarea>
+        </mat-form-field>
+    </div>
+      
+</div>
