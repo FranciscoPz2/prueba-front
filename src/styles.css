@@ -14,7 +14,9 @@ body {
     width      : 100vw;
 	height     : 100vh;
     background-color: black;
-
+    background-image: url("../src/assets/fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .mat-form-field-label {
     color: rgba(24, 23, 23, 0.7);
