@@ -1,9 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+@media (min-width: 350px){
+
+    *{
+       box-sizing: border-box;
+       padding   : 0;
+       margin    : 0;
+       overflow  : scroll;
+    }
+    
+}
 *{
    box-sizing: border-box;
    padding   : 0;
    margin    : 0;
+   overflow  : hidden;
 }
+
 
 html, body { 
     height: 100%; 
@@ -29,7 +42,32 @@ body {
     display: inline-block;
     line-height: 0px;
 }
+.mat-form-field {
+    border-top: 0em solid #0000;
+}
+.mb-3 {
+    margin-bottom: 0rem!important;
+}
+mat-form-field.mat-form-field-appearance-outline .mat-form-field-wrapper {
+    margin: 0em 0;
+}
+.mat-form-field-appearance-outline .mat-form-field-wrapper {
+    margin: 0em 0;
+}
+.mat-form-field-wrapper {
+    padding-bottom: 0em;
+}
+.mat-form-field {
+    font-size     : inherit;
+    font-weight   : 600;
+    line-height   : 1.125;
+    font-family   : Roboto, "Helvetica Neue", sans-serif;
+    letter-spacing: normal;
+}
 #contenido.btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .modal-header:after, .modal-header:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
     display: table;
     content: none !important;
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

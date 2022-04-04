@@ -1,9 +1,13 @@
 h3{
     text-align: left;
     color: #0cbb92;
+    font-size:xx-large;
+    margin: 0%;
+    font-weight: 450;
 }
 .formData{
-    margin: 2%;
+    margin: 0% 0% 0 5%;
+    font-weight: 600;
 }
 .formField{
     text-align: left;
@@ -11,5 +15,10 @@ h3{
 button{
     background-color: #0cbb92;
     color: white;
+    font-size: larger;
+    width: 35%;
 
+}
+.contentr{
+    margin: 8% 6%;
 }
